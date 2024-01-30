@@ -1,6 +1,6 @@
 ![image info](https://blockchain.uj.ac.za/static/images/main-logo.png)
 
-# SARChI - Beginner HTML Tutorial Series
+# SARChI - Complete HTML Tutorial for Beginner
 South Africa-Switzerland Bilateral Research Chair in Blockchain Technology aims to explore blockchain integrations with real-world applications and development in Agric-food.
 
 ## Table of Contents
@@ -21,3 +21,7 @@ South Africa-Switzerland Bilateral Research Chair in Blockchain Technology aims 
 ## Getting Started
 
 To get started with these tutorials, simply navigate to the desired directory and open the `index.html` file in your web browser.
+
+## Video Tutorials
+
+For those who prefer to learn by watching videos, we have created a YouTube playlist that covers the same topics as these tutorials. You can access the playlist [here](hhttps://www.youtube.com/playlist?list=PLYAUzWboAWPjMefw3x970oGhjYv8njMM2).
