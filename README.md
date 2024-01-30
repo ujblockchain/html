@@ -24,4 +24,4 @@ To get started with these tutorials, simply navigate to the desired directory an
 
 ## Video Tutorials
 
-For those who prefer to learn by watching videos, we have created a YouTube playlist that covers the same topics as these tutorials. You can access the playlist [here](hhttps://www.youtube.com/playlist?list=PLYAUzWboAWPjMefw3x970oGhjYv8njMM2).
+For those who prefer to learn by watching videos, we have created a YouTube playlist that covers the same topics as these tutorials. You can access the playlist [here](https://www.youtube.com/playlist?list=PLYAUzWboAWPjMefw3x970oGhjYv8njMM2).
