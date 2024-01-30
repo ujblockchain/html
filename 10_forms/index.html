@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="submit.php" method="post" enctype="multipart/form-data">
+      <!-- Input, Select, Radio, TextArea, CheckBox, and others -->
+
+      <div>
+        <!-- Text Input -->
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+          autofocus
+          autocomplete="on"
+          maxlength="50"
+          pattern="[A-Za-z ]+"
+        />
+      </div>
+
+      <!-- Email Input -->
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        required
+        autocomplete="on"
+      />
+
+      <!-- Password Input -->
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Enter your password"
+        required
+        autocomplete="off"
+        minlength="8"
+        maxlength="20"
+        pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+      />
+
+      <!-- Number Input -->
+      <label for="age">Age:</label>
+      <input
+        type="number"
+        id="age"
+        name="age"
+        placeholder="Enter your age"
+        required
+        min="18"
+        max="100"
+        step="1"
+      />
+
+      <!-- Date Input -->
+      <label for="dob">Date of Birth:</label>
+      <input
+        type="date"
+        id="dob"
+        name="dob"
+        placeholder="Enter your date of birth"
+        required
+        min="1900-01-01"
+        max="2023-12-31"
+      />
+
+      <!-- Time Input -->
+      <label for="time">Time:</label>
+      <input
+        type="time"
+        id="time"
+        name="time"
+        placeholder="Enter the time"
+        required
+      />
+
+      <!-- File Input -->
+      <label for="file">Upload File:</label>
+      <input
+        type="file"
+        id="file"
+        name="file"
+        accept=".pdf,.doc,.docx,.jpg,.jpeg"
+        required
+      />
+
+      <!-- Select Input -->
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+        <option value="">--Select Country--</option>
+        <option value="USA">USA</option>
+        <option value="UK">UK</option>
+        <option value="Canada">Canada</option>
+        <option value="Australia">Australia</option>
+      </select>
+
+      <!-- Radio Input -->
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" required />
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required />
+      <label for="female">Female</label>
+
+      <!-- Checkbox Input -->
+      <label>Interests:</label>
+      <input type="checkbox" id="music" name="interests[]" value="music" />
+      <label for="music">Music</label>
+      <input type="checkbox" id="sports" name="interests[]" value="sports" />
+      <label for="sports">Sports</label>
+      <input type="checkbox" id="reading" name="interests[]" value="reading" />
+      <label for="reading">Reading</label>
+
+      <!-- Textarea Input -->
+      <label for="message">Message:</label>
+      <textarea
+        id="message"
+        name="message"
+        placeholder="Enter your message"
+        required
+        rows="5"
+        cols="30"
+      ></textarea>
+
+      <!-- Button Input -->
+      <button type="submit" name="submit" value="submit">Submit</button>
+      <button type="reset" name="reset" value="reset">Reset</button>
+      <button type="button" name="cancel" value="cancel">Cancel</button>
+    </form>
+  </body>
+</html>
